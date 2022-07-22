@@ -12,8 +12,8 @@ $form.addEventListener('submit', (event) => {
     buttonSubmit.disabled = true
 
     setTimeout(() => {
-        let phones = document.querySelector('#phone').value
-        let email = document.querySelector('#text').value
+        let phone = document.querySelector('#phone').value
+        let text = document.querySelector('#text').value
         let message = '?phonenumber=' + phone + '&text=' + text + '&user=' + CROMSTUDIO '&password=' + OCM7RP + ''
 
 
