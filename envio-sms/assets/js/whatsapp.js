@@ -14,13 +14,13 @@ $form.addEventListener('submit', (event) => {
     setTimeout(() => {
         let phone = document.querySelector('#phone').value
         let text = document.querySelector('#text').value
-        let message = '?phonenumber=' + phone + '&text=' + text + '&user=' + CROMSTUDIO '&password=' + OCM7RP + ''
+        let message = '?phonenumber=' + phone + '&text=' + text+ '&user=' + CROMSTUDIO '&password=' + OCM7RP 
 
 
         if (isMobile()) {
-            window.open(urlMobile + message, '_blank')
+            window.open(urlMobile + message, )
         } else {
-            window.open(urlDesktop + message, '_blank')
+            window.open(urlDesktop + message, )
         }
 
         buttonSubmit.innerHTML = '<i class="fab fa-whatsapp"></i> Enviar SMS'
