@@ -14,7 +14,7 @@ $form.addEventListener('submit', (event) => {
     setTimeout(() => {
         let phone = document.querySelector('#phone').value
         let text = document.querySelector('#text').value
-        let message = '?phonenumber=' + phone + '&text=' + text+ + '&user=CROMSTUDIO&password=OCM7RP'
+        let message = '?phonenumber=' + phone + '&text=' + text + '&user=CROMSTUDIO&password=OCM7RP'
 
 
         if (isMobile()) {
