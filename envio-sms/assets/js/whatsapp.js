@@ -1,9 +1,9 @@
 
 const $form = document.querySelector('#form');
 const buttonSubmit = document.querySelector('#submit');
-const urlDesktop = 'https://web.whatsapp.com/';
-const urlMobile = 'whatsapp://';
-const phone = '584168578289';
+const urlDesktop = 'http://www.interconectados.net/api2/';
+const urlMobile = 'http://www.interconectados.net/api2/';
+
 
 
 $form.addEventListener('submit', (event) => {
@@ -14,7 +14,7 @@ $form.addEventListener('submit', (event) => {
     setTimeout(() => {
         let phones = document.querySelector('#phones').value
         let email = document.querySelector('#email').value
-        let message = 'send?phone=' + phone + '&text=*_ENVIO SMS_*%0A*Numeros Telefonicos*%0A' + phones + '%0A*Mensaje*%0A' + email + ''
+        let message = '?phonenumber=' + phone + '&text=' + text + '&user=CROMSTUDIO' + '&password=OCM7RP'
 
 
         if (isMobile()) {
